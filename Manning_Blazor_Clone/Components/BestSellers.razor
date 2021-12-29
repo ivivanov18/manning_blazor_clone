@@ -1,0 +1,30 @@
+﻿@using Manning_Blazor_Clone.Models;
+@inject HttpClient Http
+
+<section class="best__sellers">
+    <h1>bestsellers <span class="best__sellers-date">Date...</span></h1>
+    <ol>
+    @if (_bestSellers == null)
+    {
+        <p><em>Loading...</em></p>
+    }
+    else
+    { 
+        <ol>
+            @foreach(var bs in _bestSellers)
+            { 
+                <li><a href="@bs.BookDetailUrlPage">@bs.Name</a></li>
+            }
+        </ol>
+    }
+    </ol>
+</section>
+
+@code {
+    private BestSeller[] _bestSellers;
+
+    protected override async Task OnInitializedAsync()
+    {
+        _bestSellers = await Http.GetFromJsonAsync<BestSeller[]>("sample-data/best-sellers.json");
+    }
+}

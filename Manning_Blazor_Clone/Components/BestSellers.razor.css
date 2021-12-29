@@ -1,0 +1,40 @@
+﻿.best__sellers {
+    padding: 38px;
+    margin-bottom: 38px;
+    background-color: #eeeeee;
+    border: 1px solid #eeeeee;
+    border-radius: 6px;
+}
+
+.best__sellers-date {
+    font-size: 13px;
+    font-weight: 300;
+    margin-left: 6.5px;
+}
+
+a {
+    color: #407fbf;
+    text-decoration: none;
+}
+
+a:hover, a:focus {
+    color: #2d5986;
+    text-decoration: underline;
+}
+
+.best__sellers ol {
+    padding-left: 1.35em;
+    margin-bottom: 0;
+}
+
+li::marker {
+    unicode-bidi: isolate;
+    font-variant-numeric: tabular-nums;
+    text-indent: 0px !important;
+    text-transform: none;
+    text-align: start !important;
+    text-align-last: start !important;
+}
+
+
+

@@ -1,0 +1,74 @@
+[
+  {
+    "id": 2125,
+    "name": "Geometry for Programmers",
+    "meap": true,
+    "link": "/books/geometry-for-programmers",
+    "category": "Development"
+  },
+  {
+    "id": 1177,
+    "name": "Deep Learning with Python, Second Edition",
+    "meap": false,
+    "link": "/books/deep-learning-with-python-second-edition",
+    "category": "Data"
+  },
+  {
+    "id": 1567,
+    "name": "Graph Algorithms for Data Science",
+    "meap": true,
+    "link": "/books/graph-algorithms-for-data-science",
+    "category": "Data"
+  },
+  {
+    "id": 1856,
+    "name": "Effective Software Testing",
+    "meap": true,
+    "link": "/books/effective-software-testing",
+    "category": "Development"
+  },
+  {
+    "id": 1003,
+    "name": "Advanced Algorithms and Data Structures",
+    "meap": false,
+    "link": "/books/advanced-algorithms-and-data-science",
+    "category": "Development"
+  },
+  {
+    "id": 1581,
+    "name": "Evolutionary Deep Learning",
+    "meap": true,
+    "link": "/books/evolutionary-deep-learning",
+    "category": "Development"
+  },
+  {
+    "id": 880,
+    "name": "Rust in Action",
+    "meap": false,
+    "link": "/books/rust-in-action",
+    "category": "Development"
+  },
+  {
+    "id": 1373,
+    "name": "Data-Oriented Programming",
+    "meap": true,
+    "link": "/books/data-oriented-programming",
+    "category": "Development"
+  },
+  {
+    "id": 1431,
+    "name": "The Programmer's Brain",
+    "meap": false,
+    "link": "/books/the-programmers-brain",
+    "category": "General"
+  },
+  {
+    "id": 1256,
+    "name": "Kubernetes in Action, Second Edition",
+    "meap": true,
+    "link": "/books/kubernetes-in-action-second-edition",
+    "category": "Operations & Cloud"
+  }
+
+
+]
