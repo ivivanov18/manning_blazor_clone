@@ -1,0 +1,23 @@
+﻿.action__control {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    transition: color 125ms ease-in-out;
+    color: #777777;
+}
+
+.action__control:hover {
+    cursor: pointer;
+    color: #000;
+    text-decoration: none !important;
+}
+
+.action__control-text {
+    font-size: 12px;
+    font-weight: lighter;
+    line-height: 1em;
+    margin: 0;
+    padding: 0;
+}

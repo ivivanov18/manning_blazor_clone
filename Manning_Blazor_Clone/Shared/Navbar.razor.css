@@ -1,0 +1,14 @@
+﻿nav {
+    border-bottom: solid thin #eeeeee;
+}
+
+.form-input-group {
+    flex-grow: 1;
+    padding-left: 18px;
+}
+
+.controls {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}

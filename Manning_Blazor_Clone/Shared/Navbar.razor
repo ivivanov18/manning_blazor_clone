@@ -1,0 +1,27 @@
+﻿@using Manning_Blazor_Clone.Components; 
+
+<nav class="navbar navbar-light bg-white justify-content-between">
+        <div>
+            <a class="navbar-brand" href="#">
+                <img src="/assets/manningLogoBlack.svg" alt="" loading="lazy" height="40" class="d-inline-block align-text-top">\
+                <img src="/assets/manningLettersBlack.svg" alt="" loading="lazy" height="20" class="d-inline-block align-text-top">
+            </a>
+        </div>
+        <div class="form-input-group d-flex">
+            <form class="d-flex">
+                <div class="input-group">
+                    <input type="search" class="form-control" placeholder="search for and inside books..." aria-label="Username" aria-describedby="search-button">
+                    <button class="input-group-text" id="search-button"><i class="fas fa-search"></i></button>
+                </div>
+            </form>
+            <ControlAction ActionText="browse" ActionIconClassName="fas fa-book-open fa-2x" />
+        </div>
+        <div class="controls">
+            <ControlAction ActionText="cart" ActionIconClassName="fas fa-cart-plus fa-2x" />
+            <ControlAction ActionText="ivan" ActionIconClassName="far fa-user fa-2x" />
+        </div>
+</nav>
+
+@code {
+
+}

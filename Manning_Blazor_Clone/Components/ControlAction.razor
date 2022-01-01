@@ -1,0 +1,12 @@
+﻿<div class="action__control">
+    <i class=@ActionIconClassName></i>
+    <span class="action__control-text">@ActionText</span>
+</div>
+
+
+@code {
+    [Parameter]
+    public string ActionText { get; set; }
+    [Parameter]
+    public string ActionIconClassName { get; set; }
+}
