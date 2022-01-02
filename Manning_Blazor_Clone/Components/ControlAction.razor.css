@@ -6,6 +6,7 @@
     text-align: center;
     transition: color 125ms ease-in-out;
     color: #777777;
+    margin: 0 0 0 18px;
 }
 
 .action__control:hover {
@@ -17,7 +18,12 @@
 .action__control-text {
     font-size: 12px;
     font-weight: lighter;
-    line-height: 1em;
+    line-height: 0.8em;
     margin: 0;
     padding: 0;
+}
+
+span.action__control-text {
+    display: inline-block;
+    margin: 0 auto;
 }

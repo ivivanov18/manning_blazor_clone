@@ -7,8 +7,16 @@
     padding-left: 18px;
 }
 
+.form-input-group input {
+    height: 41px;
+}
+
 .controls {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+}
+
+nav img {
+    vertical-align: bottom;
 }

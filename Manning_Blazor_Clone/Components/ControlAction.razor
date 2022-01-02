@@ -1,4 +1,6 @@
-﻿<div class="action__control">
+﻿@inject NavigationManager NavigationManager
+
+<div class="action__control" @onclick="GoToUrlIfAny">
     <i class=@ActionIconClassName></i>
     <span class="action__control-text">@ActionText</span>
 </div>
@@ -9,4 +11,19 @@
     public string ActionText { get; set; }
     [Parameter]
     public string ActionIconClassName { get; set; }
+    #nullable enable
+    [Parameter]
+    public string? LinkUrl { get; set; }
+    #nullable disable
+
+    private void GoToUrlIfAny()
+    {
+
+        if (string.IsNullOrEmpty(LinkUrl))
+        {
+            return;
+        }
+
+        NavigationManager.NavigateTo(LinkUrl);
+    }
 }
