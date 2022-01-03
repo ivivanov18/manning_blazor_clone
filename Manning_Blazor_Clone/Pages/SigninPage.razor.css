@@ -1,0 +1,38 @@
+﻿@media (min-width: 992px) {
+    .signin__container {
+        width: 970px;
+    }
+}
+
+@media (min-width: 768px) {
+    .singnin__container {
+        width:  750px;
+    }
+}
+
+
+h1 {
+    border-bottom: solid thin #777777;
+}
+
+.signin__section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 33%;
+    background-color: #eeeeee;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    padding: 2em;
+}
+
+.row img {
+    width: 33%;
+}
+
+.signin__form-actions {
+    display: flex;
+    flex-direction: column;
+}
