@@ -1,4 +1,10 @@
-﻿@media (min-width: 992px) {
+﻿@media (min-width: 1200px) {
+    .signin__container {
+        width: 1170px;
+    }
+}
+
+@media (min-width: 992px) {
     .signin__container {
         width: 970px;
     }
@@ -10,29 +16,42 @@
     }
 }
 
-
-h1 {
-    border-bottom: solid thin #777777;
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border: 0;
 }
 
 .signin__section {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 33%;
     background-color: #eeeeee;
     border-top-right-radius: 6px;
     border-top-left-radius: 6px;
     border-bottom-left-radius: 6px;
     border-bottom-right-radius: 6px;
     padding: 2em;
-}
-
-.row img {
-    width: 33%;
+    margin: 0 auto;
 }
 
 .signin__form-actions {
     display: flex;
     flex-direction: column;
+}
+
+.center {
+    width: 33%;
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+    border-bottom: solid thin #777777;
+    margin: 0 0 0.8rem 0;
+}
+
+.logo__manning-publication {
+    margin: 0 auto;
 }
